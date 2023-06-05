@@ -1,0 +1,83 @@
+*{
+    font-family: 'Poppins',sans-serif;
+}
+#topbar{
+    position: fixed;
+    background-color: black;
+    width: 1500px;
+    display: flex;
+    margin: -10px;
+    padding: 30px;
+    border-bottom: 2px solid rgb(128, 127, 127);
+    z-index: 9999; ;
+    height: 40px;
+}
+#title{
+    color: white;
+    font-size:25px ;
+    padding-bottom: 20px;
+}
+#searchbox{
+    font-size: 15px;
+    margin-left: 1100px;
+    border: none;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    
+   
+}
+#leftbar{
+    position: absolute;
+    padding-top: 100px;
+    border-right: 2px solid rgb(138, 137, 137);
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 1000px;
+    position: fixed;
+    width: 200px;
+    color: white;
+    background-color: black;
+    margin: -10px;
+}
+button{
+    margin-top: 200px;
+    border-radius: 20px;
+    width: 140px;
+    height: 50px;
+    text-align: center;
+    font-size: 15px;
+    color: rgb(11, 4, 4);
+    background-color: rgb(249, 244, 244);
+}
+p{
+    font-size: 20px;
+    margin: 20px;
+}
+#allmovies{
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 270px;
+}
+.main{
+   
+   display: flex;
+   flex-wrap: wrap;
+   margin: 0px;
+}
+.movie{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    margin: 5px;
+}
+.moviename{
+    font-size: 10px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 5px;
+}
+.poster{
+    width: 400px;
+    height: 600px;
+}
